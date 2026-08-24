@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: tool-calling-agent
+  ai:
+    openai:
+      api-key: ${OPENAI_API_KEY}
+      chat:
+        options:
+          model: gpt-4.1-mini
